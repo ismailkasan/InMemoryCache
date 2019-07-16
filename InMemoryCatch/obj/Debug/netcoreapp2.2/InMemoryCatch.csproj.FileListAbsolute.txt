@@ -1,0 +1,14 @@
+C:\Users\impar\source\research\InMemoryCatch\InMemoryCatch\bin\Debug\netcoreapp2.2\InMemoryCatch.deps.json
+C:\Users\impar\source\research\InMemoryCatch\InMemoryCatch\bin\Debug\netcoreapp2.2\InMemoryCatch.runtimeconfig.json
+C:\Users\impar\source\research\InMemoryCatch\InMemoryCatch\bin\Debug\netcoreapp2.2\InMemoryCatch.runtimeconfig.dev.json
+C:\Users\impar\source\research\InMemoryCatch\InMemoryCatch\bin\Debug\netcoreapp2.2\InMemoryCatch.dll
+C:\Users\impar\source\research\InMemoryCatch\InMemoryCatch\obj\Debug\netcoreapp2.2\InMemoryCatch.csprojAssemblyReference.cache
+C:\Users\impar\source\research\InMemoryCatch\InMemoryCatch\obj\Debug\netcoreapp2.2\InMemoryCatch.csproj.CoreCompileInputs.cache
+C:\Users\impar\source\research\InMemoryCatch\InMemoryCatch\obj\Debug\netcoreapp2.2\InMemoryCatch.RazorAssemblyInfo.cache
+C:\Users\impar\source\research\InMemoryCatch\InMemoryCatch\obj\Debug\netcoreapp2.2\InMemoryCatch.RazorAssemblyInfo.cs
+C:\Users\impar\source\research\InMemoryCatch\InMemoryCatch\obj\Debug\netcoreapp2.2\InMemoryCatch.AssemblyInfoInputs.cache
+C:\Users\impar\source\research\InMemoryCatch\InMemoryCatch\obj\Debug\netcoreapp2.2\InMemoryCatch.AssemblyInfo.cs
+C:\Users\impar\source\research\InMemoryCatch\InMemoryCatch\obj\Debug\netcoreapp2.2\InMemoryCatch.RazorTargetAssemblyInfo.cache
+C:\Users\impar\source\research\InMemoryCatch\InMemoryCatch\bin\Debug\netcoreapp2.2\InMemoryCatch.pdb
+C:\Users\impar\source\research\InMemoryCatch\InMemoryCatch\obj\Debug\netcoreapp2.2\InMemoryCatch.dll
+C:\Users\impar\source\research\InMemoryCatch\InMemoryCatch\obj\Debug\netcoreapp2.2\InMemoryCatch.pdb
