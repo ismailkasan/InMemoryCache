@@ -1,35 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\impar\\source\\research\\InMemoryCatch\\InMemoryCatch\\InMemoryCatchKullanimi.csproj": {}
+    "C:\\ismail kasan\\ismail kaşan\\Demolar\\InMemoryCache\\InMemoryCatch\\InMemoryCatchKullanimi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\impar\\source\\research\\InMemoryCatch\\InMemoryCatch\\InMemoryCatchKullanimi.csproj": {
+    "C:\\ismail kasan\\ismail kaşan\\Demolar\\InMemoryCache\\InMemoryCatch\\InMemoryCatchKullanimi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\impar\\source\\research\\InMemoryCatch\\InMemoryCatch\\InMemoryCatchKullanimi.csproj",
+        "projectUniqueName": "C:\\ismail kasan\\ismail kaşan\\Demolar\\InMemoryCache\\InMemoryCatch\\InMemoryCatchKullanimi.csproj",
         "projectName": "InMemoryCatchKullanimi",
-        "projectPath": "C:\\Users\\impar\\source\\research\\InMemoryCatch\\InMemoryCatch\\InMemoryCatchKullanimi.csproj",
-        "packagesPath": "C:\\Users\\impar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\impar\\source\\research\\InMemoryCatch\\InMemoryCatch\\obj\\",
+        "projectPath": "C:\\ismail kasan\\ismail kaşan\\Demolar\\InMemoryCache\\InMemoryCatch\\InMemoryCatchKullanimi.csproj",
+        "packagesPath": "C:\\Users\\ismailkasan\\.nuget\\packages\\",
+        "outputPath": "C:\\ismail kasan\\ismail kaşan\\Demolar\\InMemoryCache\\InMemoryCatch\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\impar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ismailkasan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp2.2"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://live.piton.com.tr/nuGet/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp2.2": {
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -40,24 +37,13 @@
         }
       },
       "frameworks": {
-        "netcoreapp2.2": {
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
-            "Microsoft.AspNetCore.App": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.2.0, )",
-              "autoReferenced": true
-            },
             "Microsoft.AspNetCore.Razor.Design": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.2.0, )"
-            },
-            "Microsoft.NETCore.App": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.2.0, )",
-              "autoReferenced": true
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
@@ -65,10 +51,25 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,12 +1,9 @@
-﻿using InMemoryCatchKullanimi.Domain;
-using System;
+﻿using InMemoryCacheKullanimi.Domain;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
-namespace InMemoryCatchKullanimi.Repository
+namespace InMemoryCacheKullanimi.Repository
 {
-   public interface IStudentRepository
+    public interface IStudentRepository
     {
         IEnumerable<Student> GetAll();
     }

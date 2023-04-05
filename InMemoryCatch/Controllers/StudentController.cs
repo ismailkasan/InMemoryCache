@@ -1,19 +1,26 @@
-﻿using InMemoryCatchKullanimi.Domain;
+﻿using InMemoryCacheKullanimi.Domain;
+using InMemoryCacheKullanimi.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Caching.Memory;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
-namespace InMemoryCatchKullanimi.Controllers
+namespace InMemoryCacheKullanimi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
     public class StudentController : ControllerBase
     {
         private readonly IMemoryCache _memoryCache;
-        public StudentController(IMemoryCache memoryCache)
+        private readonly IStudentService  _studentService;
+        public StudentController(
+            IMemoryCache memoryCache,
+            IStudentService studentService
+            )
         {
             this._memoryCache = memoryCache;
+            this._studentService = studentService;
         }
         [HttpGet]
         public IEnumerable<Student> Get()
@@ -21,14 +28,12 @@ namespace InMemoryCatchKullanimi.Controllers
             const string cacheKey = "studentListKey";
             if (!_memoryCache.TryGetValue(cacheKey, out List<Student> response))
             {
-                response = new List<Student> { new Student { Id = Guid.NewGuid(), Name = "ismail kaşan" }, new Student { Id = Guid.NewGuid(), Name = "serkan ulukoca" } };
+                response = _studentService.GetAllStudents().ToList();
                 var cacheExpirationOptions = new MemoryCacheEntryOptions
                 {
                     AbsoluteExpiration = DateTime.Now.AddMinutes(5),
                     Priority = CacheItemPriority.Normal,
-
                 };
-
 
                 cacheExpirationOptions.RegisterPostEvictionCallback(callback: EvictionCallback, state: this);
             }

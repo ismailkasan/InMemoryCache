@@ -1,10 +1,8 @@
-﻿using InMemoryCatchKullanimi.Domain;
+﻿using InMemoryCacheKullanimi.Domain;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
-namespace InMemoryCatchKullanimi.Repository
+namespace InMemoryCacheKullanimi.Repository
 {
     public class StudentRepository : IStudentRepository
     {
@@ -12,8 +10,8 @@ namespace InMemoryCatchKullanimi.Repository
         {
             return new List<Student>
             {
-                new Student { Id = Guid.NewGuid(), Name = "İsmail" },
-                new Student {  Id = Guid.NewGuid(), Name = "Ahmet" }
+                new Student { Id = Guid.NewGuid(), Name = "Student-1" },
+                new Student {  Id = Guid.NewGuid(), Name = "Student-2" }
             };
         }
     }   

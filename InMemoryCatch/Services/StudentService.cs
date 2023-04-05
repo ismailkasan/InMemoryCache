@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using InMemoryCatchKullanimi.Domain;
-using InMemoryCatchKullanimi.Repository;
+﻿using System.Collections.Generic;
+using InMemoryCacheKullanimi.Domain;
+using InMemoryCacheKullanimi.Repository;
 
-namespace InMemoryCatchKullanimi.Services
+namespace InMemoryCacheKullanimi.Services
 {
     public class StudentService:IStudentService
     {
